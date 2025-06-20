@@ -20,7 +20,7 @@ jobs:
 
       - name: Git Commit and Push
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name "24ds2000036"
           git config user.email "24ds2000036@ds.study.iitm.ac.in"
           git add daily-log.txt
           git commit -m "Auto commit at $(date -u)" || echo "No changes to commit"
